@@ -15,14 +15,14 @@ void report(double x, double y, double f, int a){
 int main(){
 double x0, y0, h;
 int N;
-cout << "Ingrese el valor de x0: ";
+cout << "Ingrese el valor de x0: / Add the value of x0: ";
 cin >> x0;
-cout << "Ingrese el valor de y0: ";
+cout << "Ingrese el valor de y0: / Add the value of y0: ";
 cin >> y0;
-cout << "Ingrese el tamaño de paso: ";
+cout << "Ingrese el tamaño de paso: / Add the step size: ";
 cin >> h;
 
-cout << "Cuantos pasos son requeridos? ";
+cout << "Cuantos pasos son requeridos? / How many steps do you want? ";
 cin >> N;
   cout<<endl;
   cout<<setw(10)<<"I"<<setw(15)<<"X"<<setw(15)<<"Y"<<endl;
